@@ -1,3 +1,4 @@
+
 body{
   margin : 5%;
   text-align: center;
@@ -11,7 +12,7 @@ a{
 h1{
   font-family:'Sacramento', cursive;
   margin: 0 auto;
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: normal;
   line-height: 2;
 }
@@ -19,12 +20,12 @@ h1:hover{
   color:#cff1ef;
   font-family:'Sacramento', cursive;
   margin: 0 auto;
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: normal;
   line-height: 2;
 }
 h4{
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: normal;
 }
 
