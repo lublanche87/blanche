@@ -4,7 +4,19 @@ body{
   position: relative;
   font-family: 'Baloo Paaji 2', cursive;
 }
+a{
+  color: black;
+  text-decoration: none;
+}
 h1{
+  font-family:'Sacramento', cursive;
+  margin: 0 auto;
+  font-size: 3em;
+  font-weight: normal;
+  line-height: 2;
+}
+h1:hover{
+  color:#cff1ef;
   font-family:'Sacramento', cursive;
   margin: 0 auto;
   font-size: 3em;
@@ -15,12 +27,7 @@ h4{
   font-size: 1em;
   font-weight: normal;
 }
-h3{
-  color:#11999E;
-}
-a{
-  color:#11999E;
-}
+
 
 hr{
   width: 500px;
@@ -64,18 +71,18 @@ hr{
   height: 150px;
 }
 .presentation{
-  top:200px;
-  height: 400px;
+  top:100px;
+  height: 300px;
   width: 500px;
   margin: 0 auto 0 auto;
   position: relative;
 }
 
 .biography1{
-  top:200px;
+  top:100px;
   height: 500px;
   width: 500px;
-  margin: 0 auto 300px auto;
+  margin: 0 auto 150px auto;
   position: relative;
 }
 .biography2{
