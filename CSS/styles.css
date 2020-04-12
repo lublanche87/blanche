@@ -7,6 +7,19 @@ body{
 h1{
   font-family:'Sacramento', cursive;
   margin: 0 auto;
+  font-size: 3em;
+  font-weight: normal;
+  line-height: 2;
+}
+h4{
+  font-size: 1em;
+  font-weight: normal;
+}
+h3{
+  color:#11999E;
+}
+a{
+  color:#11999E;
 }
 
 hr{
@@ -94,13 +107,32 @@ hr{
 
 }
 .contact{
-  width: 500px;
-  margin: 0 auto 200px auto;
+  width: 400px;
+  margin: 200px auto 100px auto;
   position: relative;
 }
 .mail{
+  display: inline-block;
+  background-image: url('../images/mail.png');
+  background-size: 70px;
   position: relative;
   width:70px;
   height:70px;
-  margin: auto;
+  top:15px;
+}
+.mail:hover{
+  display: inline-block;
+  background-image: url('../images/mail_send.png');
+  background-size: 70px;
+  outline-style: none;
+  position: relative;
+  width:70px;
+  height:70px;
+  top:15px;
+}
+.mailme{
+  display: inline-block;
+  margin: 0 auto auto 20px;
+
+
 }
